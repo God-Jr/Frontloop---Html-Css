@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: url("./img/background.jpg") fixed;
+  background-size: cover;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ticket {
+  background-color: whitesmoke;
+  width: 500px;
+  padding: 40px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.country {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: steelblue;
+  font-size: 60px;
+  box-sizing: border-box;
+}
+.country .g-middle {
+  color: rgb(193, 224, 255);
+}
+.city {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(161, 159, 159);
+  font-size: 20px;
+  box-sizing: border-box;
+}
+.box-1 {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  margin-top: 80px;
+  box-sizing: border-box;
+}
+.box-1 div {
+  margin-right: 100px;
+  box-sizing: border-box;
+}
+.box-1 div h5 {
+  color: rgb(161, 159, 159);
+  box-sizing: border-box;
+}
+.box-2 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+.box-2 .info-i {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.box-2 .info-i div h5 {
+  color: rgb(161, 159, 159);
+}

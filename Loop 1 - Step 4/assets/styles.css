@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: rgb(210, 237, 252);
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chat {
+  width: auto;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.header {
+  background-color: rgb(116, 159, 252);
+  display: flex;
+  padding: 20px 20px;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+.hpn {
+  display: flex;
+  align-items: center;
+}
+.circle {
+  width: 7px;
+  height: 7px;
+  background: white;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.date-c {
+  color: rgb(199, 198, 198);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.date {
+  margin: 0 10px;
+  font-size: 14px;
+}
+.line-d {
+  border: rgb(226, 226, 226) solid 1px;
+  width: 40%;
+  padding: 0 20px;
+}
+.content {
+  padding: 10px 30px 30px 30px;
+}
+.msgo {
+  margin-top: 30px;
+}
+.msgm {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.msgo .time {
+  color: rgb(199, 198, 198);
+}
+.msgm .time {
+  color: rgb(199, 198, 198);
+  display: flex;
+  justify-content: flex-end;
+}
+.msgo .text {
+  background-color: rgb(236, 241, 253);
+  margin-top: 10px;
+  padding: 10px;
+  width: 60%;
+}
+.msgm .text {
+  background-color: rgb(243, 243, 243);
+  margin-top: 10px;
+  padding: 10px;
+  width: 60%;
+}
+.msgm .textb {
+  background-color: rgb(253, 169, 169);
+  margin-top: 10px;
+  padding: 10px;
+  width: 60%;
+}
+.line {
+  margin: 0 auto;
+  border: rgb(226, 226, 226) solid 1px;
+  width: 90%;
+}
+.write-s {
+  padding: 20px;
+  color: rgb(199, 198, 198);
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-end;
+}
+.write-s input {
+  background: none;
+  border: 0;
+  padding: 10px;
+  width: 80%;
+  font-size: 16px;
+}
+.write-s button {
+  background: none;
+  border: 0;
+  padding: 10px 15px;
+  color: rgb(116, 159, 252);
+  font-weight: bold;
+  font-size: 18px;
+}
+.write-s input:focus {
+  outline: 0;
+}
+.write-s button:focus {
+  outline: 0;
+}
+
+/*///////////////////////////*/
+.t-r {
+  width: 0;
+  height: 0;
+  border-top: 10px solid rgb(236, 241, 253);
+  border-right: 10px solid transparent;
+}
+.t-l {
+  width: 0;
+  height: 0;
+  border-top: 10px solid rgb(243, 243, 243);
+  border-left: 10px solid transparent;
+}
+.t-r-b {
+  width: 0;
+  height: 0;
+  border-top: 10px solid rgb(253, 169, 169);
+  border-right: 10px solid transparent;
+}
