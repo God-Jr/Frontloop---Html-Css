@@ -1,18 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Loop 2 - Step 2</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css" />
-</head>
-<body>
-  <!--
-    FYI:
-    Textarea resize in the design is a native feature of browsers.
-    Also there is no close icon in the assets, so you should try to find another way of implementing it.
-  -->
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Loop 2 - Step 2</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,500,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <div class="nav">
+          <div class="title">
+            Account settings
+          </div>
+          <div class="cross">
+            X
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/avatar.jpg" alt="" class="avatar" />
+          <div class="form">
+            <div class="first">
+              <label for="user">USERNAME</label>
+              <input
+                type="text"
+                class=""
+                id="user"
+                placeholder="Enter your username"
+              />
+            </div>
+            <div class="second">
+              <div class="box1">
+                <label for="name">FIRST NAME</label>
+                <input
+                  type="text"
+                  class=""
+                  id="name"
+                  placeholder="Enter your first name"
+                />
+              </div>
+              <div class="box2">
+                <label for="lastName">LAST NAME</label>
+                <input
+                  type="text"
+                  class=""
+                  id="lastName"
+                  placeholder="Enter your last name"
+                />
+              </div>
+            </div>
+            <div class="third">
+              <label for="email">EMAIL</label>
+              <input
+                type="text"
+                class=""
+                id="email"
+                placeholder="Enter your email"
+              />
+            </div>
+          </div>
+          <div class="fourth">
+            <label for="textarea">BIO</label>
+            <textarea
+              class=""
+              id="textarea"
+              rows="6"
+              placeholder="Tell us about yourself"
+            ></textarea>
+          </div>
+        </div>
+        <div class="options">
+          <a href="" class="cancel">Cancel</a>
+          <a href="">Save</a>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

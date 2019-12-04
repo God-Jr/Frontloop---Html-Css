@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(49, 49, 49);
+}
+.box {
+  background-color: #fdec51;
+  width: 700px;
+  padding: 60px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 500;
+}
+.cross {
+  color: rgb(128, 128, 128);
+}
+.card {
+  background-color: white;
+  margin-top: 60px;
+  padding: 40px;
+  width: 700px;
+  box-shadow: -8px 8px 20px -4px rgba(0, 0, 0, 0.46);
+  position: relative;
+}
+.avatar {
+  border-radius: 50%;
+  width: 70px;
+  position: absolute;
+  top: -35px;
+}
+.first {
+  display: flex;
+  flex-direction: column;
+  margin: 25px 0;
+}
+.second {
+  display: flex;
+  margin: 25px 0;
+}
+.box1 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.box2 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.third {
+  display: flex;
+  flex-direction: column;
+  margin: 25px 0;
+}
+.fourth {
+  display: flex;
+  flex-direction: column;
+  margin: 25px 0;
+}
+div label {
+  color: rgb(170, 169, 169);
+  font-weight: bold;
+  font-size: 14px;
+}
+div input {
+  border: none;
+  border-bottom: solid 0.1px rgb(199, 199, 199);
+  padding: 10px 0;
+  color: rgb(51, 51, 51);
+  font-size: 14px;
+  font-weight: 500;
+}
+div input:focus{
+  outline: none;
+}
+div textarea {
+  border: none;
+  border-bottom: solid 0.1px rgb(199, 199, 199);
+  padding: 10px 0;
+  color: rgb(51, 51, 51);
+  font-size: 14px;
+  font-weight: 500;
+}
+div textarea:focus{
+  outline: none;
+}
+
+.options {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+.options a {
+  color: rgb(128, 128, 128);
+  font-weight: 500;
+}
+.options .cancel {
+  margin-right: 20px;
+}
