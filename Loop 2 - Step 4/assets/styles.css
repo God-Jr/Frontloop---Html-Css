@@ -29,6 +29,9 @@ body {
   align-items: center;
   margin-right: 2px;
 }
+.event:hover{
+  background-color: rgb(45, 46, 63);
+}
 .finance {
   width: 80px;
   height: 80px;
@@ -36,6 +39,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.finance:hover{
+  background-color: rgb(45, 46, 63);
 }
 .cafe {
   width: 110px;
@@ -54,6 +60,9 @@ body {
   justify-content: center;
   align-items: center;
 }
+.gift:hover{
+  background-color: rgb(45, 46, 63);
+}
 .pets {
   width: 80px;
   height: 80px;
@@ -62,6 +71,9 @@ body {
   justify-content: center;
   align-items: center;
   margin-left: 2px;
+}
+.pets:hover{
+  background-color: rgb(45, 46, 63);
 }
 .event img {
   width: 30px;
@@ -93,10 +105,12 @@ body {
   color: white;
   position: relative;
   box-sizing: border-box;
-  height: 250px;
+  height: 253px;
 }
 .image img {
   width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 .data {
   position: absolute;
@@ -131,4 +145,26 @@ body {
   padding: 20px 20px;
   font-size: 18px;
   font-weight: 450;
+  height: 60px;
+  border-top: rgb(226, 226, 226) solid 0.5px;
+}
+.itemL {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  color: rgb(196, 192, 187);
+  padding: 20px 20px;
+  font-size: 18px;
+  font-weight: 450;
+  border-top: rgb(226, 226, 226) solid 0.5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  height: 60px;
+
+}
+.num:hover{
+  font-size: 20px;
+  color:black;
+  cursor: pointer;
 }
