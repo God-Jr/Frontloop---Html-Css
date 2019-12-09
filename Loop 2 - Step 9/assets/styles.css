@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/*/////////////////////////*/
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(70, 119, 246);
+}
+/*/////////////////////////*/
+.box {
+  background-color: rgb(255, 255, 255);
+  width: 500px;
+  /* height: 700px; */
+  position: absolute;
+}
+/*/////////////////////////*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 30px 30px 30px;
+  font-weight: 500;
+  align-items: center;
+}
+.header img {
+  width: 25px;
+  opacity: 0.3;
+}
+/*/////////////////////////*/
+.car-blue {
+  position: relative;
+  left: -15px;
+  width: 530px;
+  background-image: linear-gradient(
+      rgba(89, 139, 248, 0.7),
+      rgba(89, 139, 248, 0.7)
+    ),
+    url("./img/map.png");
+  background-position: 50% 50%;
+
+  background-size: cover;
+  border-radius: 4px;
+  padding: 20px 40px 50px 40px;
+  color: white;
+  font-weight: 500;
+  position: relative;
+}
+.destiny {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.destiny img {
+  width: 20px;
+}
+.car-line img {
+  margin-left: 78px;
+}
+.p-line {
+  display: flex;
+  align-items: center;
+  padding: 0 0 4px 0;
+}
+.line1 {
+  border: none;
+  height: 2px;
+  width: 80px;
+  background-color: rgb(255, 255, 255);
+}
+.line2 {
+  border: none;
+  height: 2px;
+  width: 160px;
+  background-color: rgb(189, 189, 189);
+}
+.point1 {
+  width: 8px;
+  height: 8px;
+  background-color: white;
+  border-radius: 50%;
+}
+.point2 {
+  width: 8px;
+  height: 8px;
+  background-color: white;
+  border-radius: 50%;
+}
+.info {
+  display: flex;
+  margin-top: 20px;
+}
+.info .text2 {
+  margin-left: 140px;
+}
+
+.map {
+  display: flex;
+  background: rgb(70, 119, 246);
+  width: 140px;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: -25px;
+  right: 40px;
+}
+.map p {
+  margin-left: 10px;
+}
+/*/////////////////////////*/
+.directions {
+  padding: 40px 0 0 0;
+  font-weight: 500;
+}
+.title {
+  margin: 10px 40px 30px 40px;
+}
+.indication {
+  display: flex;
+  margin: 25px 40px;
+}
+.indication img {
+  margin-right: 30px;
+}
+.indication .textA {
+  margin-bottom: 10px;
+  color: rgb(212, 207, 202);
+}
+.street {
+  margin: 15px 0px 15px 30px;
+  height: 60px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  background-image: url("./img/streetview.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  position: relative;
+}
+.street img {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+.header img:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.map:hover {
+  background-color: rgb(99, 143, 252);
+  cursor: pointer;
+}
