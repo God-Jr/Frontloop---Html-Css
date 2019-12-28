@@ -1,81 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 * {
   padding: 0;
   margin: 0;
-  overflow: hidden;
-  font-family: Arial, Helvetica, sans-serif;
-}
-body {
-  background-color: rgb(127, 167, 241);
-}
-.max-c {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-.container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 10%;
-}
-.container .card a {
   text-decoration: none;
-}
-.card {
-  background-color: white;
-  width: 30%;
-  padding: 1%;
-}
-.price {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-
-}
-.np{
-  font-size: 25px;
-  font-weight: bolder;
-}
-.vp{
-  font-size: 18px;
-  font-weight: lighter;
-}
-.border1 {
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-}
-.border2 {
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-}
-.card-content {
-  padding: 40px 100px;
-  height: 80%;
-}
-.center {
-  display: block;
-  margin: 10px auto;
-}
-.center1 {
-  text-align: center;
-}
-.color0 {
-  color: rgb(111, 111, 255);
-}
-.color1 {
-  color: grey;
-}
-.space {
-  margin: 50px 0 20px 0;
-}
-.space0 {
-  margin: 20px 0;
-}
-.size {
-  height: 80px;
-  width: 80px;
-}
-.card-content:hover {
-  background-color: rgb(241, 241, 241);
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
