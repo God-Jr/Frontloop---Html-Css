@@ -6,7 +6,7 @@
   font-family: "Roboto", sans-serif;
 }
 body {
-  background-color: rgb(210, 237, 252);
+  background-color: #CCDBE7;
 }
 .container {
   width: 100%;
@@ -18,11 +18,11 @@ body {
 .chat {
   width: auto;
   box-sizing: border-box;
-  background-color: white;
+  background-color: #FFFFFF;
 }
 
 .header {
-  background-color: rgb(116, 159, 252);
+  background-color: #6A96D8;
   display: flex;
   padding: 20px 20px;
   align-items: center;
@@ -117,7 +117,7 @@ body {
   background: none;
   border: 0;
   padding: 10px 15px;
-  color: rgb(116, 159, 252);
+  color: #6A96D8;
   font-weight: bold;
   font-size: 18px;
 }

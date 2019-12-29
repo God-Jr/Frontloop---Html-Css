@@ -11,17 +11,83 @@ body {
   background-position: center center;
   background-attachment: fixed;
 }
-
 .container {
+  width: 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .card {
-  width: 40%;
+  width: 350px;
   background-color: white;
 }
-.input:checked{
-    background-image: url('./img/check.svg');
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header .puntos {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+.puntos .punto1 {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: rgb(97, 97, 97);
+  margin: 0 3px;
+}
+.puntos .punto2 {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: rgb(163, 163, 163);
+  margin: 0 3px;
+
+}
+.puntos .punto3 {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: rgb(163, 163, 163);
+  margin: 0 3px;
+
+}
+.header .title {
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+/**/
+.item {
+  border-top: rgb(184, 184, 184) solid 0.5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+}
+.item .parte1 {
+  display: flex;
+  align-items: center;
+}
+.item .parte1 img {
+  width: 40px;
+  margin-right: 10px;
+}
+.inactivo {
+  color: rgb(163, 163, 163);
+}
+/**/
+.boton {
+  background-color: #598bdd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 15px 0;
+}
+.boton img {
+  margin-left: 5px;
+  width: 18px;
 }

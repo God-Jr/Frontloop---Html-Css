@@ -6,3 +6,64 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #7a9bcf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 900px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 40px;
+  border-radius: 5px;
+
+}
+.card img {
+  width: 70px;
+  margin-bottom: 40px;
+}
+.card .title {
+  font-weight: 500;
+  color: #4d67d2;
+  margin-bottom: 20px;
+}
+.card .text {
+  color: rgb(138, 138, 138);
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.price {
+  display: flex;
+  align-items: baseline;
+  color: #4d67d2;
+  font-weight: 500;
+  position: relative;
+}
+.price .icon {
+  font-size: 14px;
+  position: absolute;
+  left: -8px;
+  top: 2px;
+}
+.price .number {
+  font-size: 25px;
+}
+.price .month {
+  font-size: 15px;
+}
+.card:hover{
+  cursor: pointer;
+  background-color: rgb(218, 218, 255);
+}
