@@ -15,8 +15,8 @@
   font-family: "Roboto", sans-serif;
 }
 .card {
-  width: 90%;
-  height: 90%;
+  width: 1000px;
+  height: 800px;
   display: flex;
 }
 .part-1 {
@@ -61,11 +61,12 @@
 }
 .box {
   width: 600px;
-  margin: 100px auto 40px auto;
+  margin: 15% auto 10% auto;
 }
 .title {
+  width: 80%;
   font-family: "Jomolhari", serif;
-  font-size: 70px;
+  font-size: 3rem;
 }
 .subtitle {
   margin: 20px 0 30px 0;

@@ -66,14 +66,17 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
+.text {
+  overflow: auto;
+}
 .p-1 {
   line-height: 35px;
-  font-size: 20px;
+  font-size: 18px;
 }
 .p-2 {
   margin-top: 20px;
   line-height: 35px;
-  font-size: 20px;
+  font-size: 18px;
 }
 .footer {
   display: flex;

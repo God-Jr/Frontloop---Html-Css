@@ -77,11 +77,13 @@
   background-color: rgb(22, 22, 22);
   display: flex;
   justify-content: center;
-  padding: 15px 110px;
+  width: 200px;
+  align-items: center;
+  height: 50px;
   border-radius: 5px;
   position: absolute;
-  left: 15px;
-  bottom: -25px;
+  left: 50px;
+  bottom: -15px;
 }
 .box2 {
   width: 300px;

@@ -1,31 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Loop 2 - Challenge</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="./css/main.css" />
-</head>
-<body>
-
-  <!--
-    Ah, it smells like a new challenge!
-
-    This time we build a concept of some job search website.
-    It's more about small details this time and if you haven't yet tried splitting
-    your css into separate component files - that's the perfect time to try.
-    (Use @import in css to achieve that)
-
-    The other gimmick we introduce here is about using font icons instead of inserting images into our code.
-    The easiest out-of-the-box method is to use Google Material Icons,
-    so read about the implementation before you start:
-    https://material.io/icons/
-
-    And good luck!
-  -->
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Loop 2 - Challenge</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="box">
+      <!--NAVBAR1-->
+      <nav class="navbar1">
+        <div class="img-logo">
+          <img src="./img/logo.png" alt="" class="logo" />
+        </div>
+        <div class="busqueda">
+          <div class="buscador">
+            <input type="text" name="" id="" />
+            <img src="./img/logo.png" alt="" class="budqueda-img" />
+          </div>
+        </div>
+        <div class="opciones">
+          <p>Home</p>
+          <p>Profile</p>
+          <p>Connections</p>
+          <p>Interest</p>
+          <p class="premium">Try Premium</p>
+        </div>
+        <div class="notificaciones">
+          <img src="./img/logo.png" alt="" />
+          <img src="./img/logo.png" alt="" />
+          <img src="./img/logo.png" alt="" />
+        </div>
+        <div class="img-perfil">
+          <img src="./img/avatar.jpg" alt="" />
+        </div>
+      </nav>
+      <!--NAVBAR2-->
+      <nav class="navbar2">
+        <div class="post">
+          <p>Post</p>
+        </div>
+        <div>
+          <p>Background</p>
+        </div>
+        <div>
+          <p>Recommendations</p>
+        </div>
+        <div>
+          <p>Following</p>
+        </div>
+      </nav>
+      <!--CONTENDOR DE SECCIONES-->
+      <div class="contendorDeSecciones">
+        <div class="perfil">
+          <div class="perfil-parte1">
+            <img src="./img/bill-gates-avatar.png" alt="" />
+            <p class="p-nombre">Bill Gates</p>
+            <p class="p-title">Microsoft Founder</p>
+            <p class="p-subtitle">Greater Seattle Area</p>
+            <div class="follow">
+              <p>Follow</p>
+            </div>
+            <div class="connect">
+              <p>Connect</p>
+              <img src="" alt="" class="down" />
+            </div>
+          </div>
+          <div class="perfil-parte2">
+            <div class="info1">
+              <p class="i-numero">200</p>
+              <p class="i-title">Connecti...</p>
+            </div>
+            <div class="info2">
+              <p class="i-numero">1.9</p>
+              <p class="i-title">followers</p>
+            </div>
+          </div>
+          <div class="perfil-parte3">
+            <div class="link1">
+              <img src="" alt="" />
+              <p>linkedin.com/in/billgat...</p>
+            </div>
+            <div class="link2">
+              <img src="" alt="" />
+              <p>billgates.com</p>
+            </div>
+          </div>
+          <div class="perfil-parte4">
+            <div class="descargar">
+              <img src="" alt="" />
+              <p>Export page as PDF</p>
+            </div>
+          </div>
+        </div>
+        <div class="contenidos">
+          <div class="contenido1">
+            <div class="contenido-titulo">
+              <p>Post</p>
+            </div>
+            <div class="contenido-bos">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
+                ab explicabo possimus labore voluptas blanditiis eaque commodi
+                eius odio in tempore magni aliquam voluptatum, perferendis
+                perspiciatis doloremque delectus, nemo soluta!.
+              </p>
+            </div>
+          </div>
+          <div class="contenido2">
+            <div class="contenido-titulo">
+              <p>BACKGROUND</p>
+            </div>
+            <div class="contenido-bos">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
+                ab explicabo possimus labore voluptas blanditiis eaque commodi
+                eius odio in tempore magni aliquam voluptatum, perferendis
+                perspiciatis doloremque delectus, nemo soluta!.
+              </p>
+            </div>
+          </div>
+          <div class="contenido3">
+            <div class="contenido-titulo">
+              <p>RECOMENDATIONS</p>
+            </div>
+            <div class="contenido-bos">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
+                ab explicabo possimus labore voluptas blanditiis eaque commodi
+                eius odio in tempore magni aliquam voluptatum, perferendis
+                perspiciatis doloremque delectus, nemo soluta!.
+              </p>
+            </div>
+          </div>
+          <div class="contenido4">
+            <div class="contenido-titulo">
+              <p>FOLLOWING</p>
+            </div>
+            <div class="contenido-bos">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
+                ab explicabo possimus labore voluptas blanditiis eaque commodi
+                eius odio in tempore magni aliquam voluptatum, perferendis
+                perspiciatis doloremque delectus, nemo soluta!.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="aside">
+          <div class="aside-parte1">
+            <p class="aside-titulo">PEOPLE ALSO VIEWED</p>
+            <div class="personas">
+              <div class="persona">
+                <img src="" alt="" />
+                <div class="persona-info">
+                  <p class="persona-nombre">Sergey Brind</p>
+                  <p class="persona-subtitulo">Google</p>
+                </div>
+              </div>
+              <div class="persona">
+                <img src="" alt="" />
+                <div class="persona-info">
+                  <p class="persona-nombre">Jeffrey Bezos</p>
+                  <p class="persona-subtitulo">Amazon</p>
+                </div>
+              </div>
+              <div class="persona">
+                <img src="" alt="" />
+                <div class="persona-info">
+                  <p class="persona-nombre">Steve Jobs</p>
+                  <p class="persona-subtitulo">Apple</p>
+                </div>
+              </div>
+            </div>
+            <div class="influenser">
+              <p class="i-titulo">MORE INFLUENCERS</p>
+              <div class="slider">
+                <img src="" alt="" class="left" />
+                <img src="" alt="" class="slider-img" />
+                <img src="" alt="" class="right" />
+              </div>
+              <p class="i-nombre">Steve Jobs</p>
+              <p class="i-subtitulo">Apple</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <!--FOOTER-->
+      <div class="footer">
+        <p>Linkedin Corporation © 2014</p>
+      </div>
+    </div>
+  </body>
 </html>
