@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  background-color: rgb(77, 38, 230);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 1000px;
+  display: flex;
+}
+/**/
+.part1 {
+  width: 45%;
+  background-color: rgb(226, 103, 150);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  position: relative;
+  box-shadow: 0px 0px 50px -15px rgba(0, 0, 0, 0.7);
+}
+.nike {
+  width: 500px;
+  position: absolute;
+  left: -110px;
+  top: 140px;
+  z-index: 990;
+}
+.more1,
+.more2,
+.more3 {
+  position: absolute;
+  text-align: center;
+  width: 30px;
+  background-color: rgb(84, 41, 242);
+  border-radius: 50%;
+}
+.more1:hover,
+.more2:hover,
+.more3:hover {
+  cursor: pointer;
+  background-color: rgba(84, 41, 242, 0.8);
+}
+.more1 {
+  z-index: 999;
+  top: 210px;
+}
+.more2 {
+  z-index: 999;
+  top: 365px;
+  left: 100px;
+}
+.more3 {
+  z-index: 999;
+  top: 420px;
+  right: 130px;
+}
+.more1 p,
+.more2 p,
+.more3 p {
+  font-weight: 500;
+  padding: 2px;
+  color: white;
+  font-size: 20px;
+}
+.logo {
+  width: 100%;
+}
+.logo img {
+  width: 40px;
+}
+.number {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.number p {
+  top: -60px;
+  position: absolute;
+  font-size: 300px;
+  color: rgba(255, 255, 255, 0.2);
+}
+.points {
+  display: flex;
+  justify-content: center;
+}
+.dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: rgba(231, 231, 231, 0.5);
+}
+.dot-w {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 0 16px;
+}
+
+/**/
+.part2 {
+  width: 55%;
+  height: 570px;
+  background-color: white;
+  margin: 40px 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 40px 30px;
+}
+.title {
+  font-size: 3rem;
+  font-weight: 500;
+}
+.price {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.price1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-right: 10px;
+}
+.price2 {
+  font-weight: 500;
+  color: rgb(170, 170, 170);
+}
+.description {
+  margin: 30px 0;
+}
+.description p {
+  line-height: 28px;
+}
+.size {
+  margin-top: 40px;
+  display: flex;
+  align-self: center;
+}
+.size-title {
+  font-size: 1.5rem;
+  color: rgb(170, 170, 170);
+  margin: auto 0px;
+}
+.sizes {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 40px;
+}
+
+.amount {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+}
+.amount-title {
+  font-size: 1.5rem;
+  color: rgb(170, 170, 170);
+}
+.count {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+.count p {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.count .material-icons {
+  color: rgb(233, 135, 171);
+}
+.count .material-icons:hover {
+  cursor: pointer;
+  color: rgba(233, 135, 171, 0.8);
+}
+.buy {
+  width: 280px;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 12px;
+  background-color: rgb(231, 76, 60);
+  border-radius: 5px;
+  margin-top: 40px;
+  transition: ease 0.1s;
+  box-shadow: 0px 0px 50px -15px rgba(0, 0, 0, 0.7);
+}
+.buy:hover {
+  transition: ease 0.1s;
+  cursor: pointer;
+  box-shadow: 0px 0px 50px -15px rgba(0, 0, 0, 0.7);
+
+  margin-top: 35px;
+}
+#btnControl-1,
+#btnControl-2,
+#btnControl-3,
+#btnControl-4,
+#btnControl-5 {
+  display: none;
+}
+
+/*NO CHECKED*/
+#btnControl-1 + label > p {
+  border: white solid 1.5px;
+  color: rgb(170, 170, 170);
+  font-size: 1.5rem;
+  transition: ease 0.5s;
+  padding: 5px 12px;
+  border-radius: 50%;
+}
+#btnControl-2 + label > p {
+  border: white solid 1.5px;
+  color: rgb(170, 170, 170);
+  font-size: 1.5rem;
+  transition: ease 0.5s;
+  padding: 5px 9px;
+  border-radius: 50%;
+}
+#btnControl-3 + label > p {
+  border: white solid 1.5px;
+  color: rgb(170, 170, 170);
+  font-size: 1.5rem;
+  transition: ease 0.5s;
+  padding: 5px 14px;
+  border-radius: 50%;
+}
+#btnControl-4 + label > p {
+  border: white solid 1.5px;
+  color: rgb(170, 170, 170);
+  font-size: 1.5rem;
+  transition: ease 0.5s;
+  border-radius: 25px;
+  padding: 5px 10px;
+}
+#btnControl-5 + label > p {
+  border-radius: 25px;
+  padding: 5px 10px;
+  border: white solid 1.5px;
+  color: rgb(170, 170, 170);
+  font-size: 1.5rem;
+  transition: ease 0.5s;
+}
+
+/*CHECKED*/
+#btnControl-1:checked + label > p {
+  border: rgb(226, 103, 150) solid 1.5px;
+  color: rgb(226, 103, 150);
+  transition: ease 0.5s;
+  padding: 5px 12px;
+  border-radius: 50%;
+}
+#btnControl-2:checked + label > p {
+  border: rgb(226, 103, 150) solid 1.5px;
+  color: rgb(226, 103, 150);
+  transition: ease 0.5s;
+  padding: 5px 9px;
+  border-radius: 50%;
+}
+#btnControl-3:checked + label > p {
+  border: rgb(226, 103, 150) solid 1.5px;
+  color: rgb(226, 103, 150);
+  transition: ease 0.5s;
+  border-radius: 50%;
+  padding: 5px 14px;
+}
+#btnControl-4:checked + label > p {
+  border: rgb(226, 103, 150) solid 1.5px;
+  color: rgb(226, 103, 150);
+  transition: ease 0.5s;
+  border-radius: 25px;
+  padding: 5px 10px;
+}
+#btnControl-5:checked + label > p {
+  border-radius: 25px;
+  padding: 5px 10px;
+  border: rgb(226, 103, 150) solid 1.5px;
+  color: rgb(226, 103, 150);
+  transition: ease 0.5s;
+}
